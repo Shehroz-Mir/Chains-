@@ -28,4 +28,6 @@ def get_input():
 
 result = chain.invoke(get_input())
 
+
+print(chain.get_graph().draw_ascii())
 print("Final Summary:\n", result)
